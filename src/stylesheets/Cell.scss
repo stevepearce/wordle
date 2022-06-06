@@ -1,0 +1,27 @@
+
+.cell {
+  border: 1px solid #ddd;
+  font-size: 4em;
+  padding: 10px;
+  margin: 3px;
+  height: 60px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.cell.match-2 {
+  background-color: green;
+  color: white;
+}
+
+.cell.match-1 {
+  background-color: yellow;
+  color: white
+}
+
+.cell.match-0 {
+  background-color: gray;
+  color: white;
+}

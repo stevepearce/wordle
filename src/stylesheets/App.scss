@@ -1,0 +1,22 @@
+@import './Cell.scss';
+@import './Row.scss';
+@import './Keyboard.scss';
+@import './Key.scss';
+@import './Grid.scss';
+@import './Modal.scss';
+@import './Button.scss';
+
+html, body {
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  @extend .flex;
+  align-items: center;
+  justify-content: center;
+}

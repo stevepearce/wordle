@@ -1,0 +1,12 @@
+@import './Cell.scss';
+
+.key {
+  @extend .cell;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: white;
+  &:hover {
+    background-color: #eee;
+  }
+}
